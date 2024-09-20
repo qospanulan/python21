@@ -6,7 +6,7 @@ data = {
 }
 
 
-file = open("json_test_2.json", "w")
+file = open("json_test_2.json", "w", encoding="utf-8")
 
 
 json_data = json.dumps(data)
@@ -16,4 +16,4 @@ print(json_data)
 
 # json.dump(data, file)
 
-
+file.close()
