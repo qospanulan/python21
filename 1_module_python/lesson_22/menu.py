@@ -43,12 +43,17 @@ while True:
             print(book)
 
     elif user_input == "2":
-        print("Вы выбрали показ доступных книг!")
+        print("Выберите книгу из списка:")
 
         available_books = library1.get_available_books()
 
-        for book in available_books:
-            print(book)
+        for ind, book in enumerate(available_books):
+            print(f"{ind}. {book}")
+
+        chosen_book_ind = int(input("Номер книги: "))
+        chosen_book = available_books[chosen_book_ind]
+        user1.take_book(chosen_book)
+        print(f"Вы взяли книгу: {chosen_book}")
 
     elif user_input == 'q':
         break

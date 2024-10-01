@@ -27,3 +27,18 @@ class Library:
 
         return available_books
 
+    def get_books_by_name(self, book_title_to_search):
+        result = []
+        for book in self.books:
+            if book.title == book_title_to_search:
+                result.append(book)
+
+        return result
+
+
+
+
+
+
+
+
