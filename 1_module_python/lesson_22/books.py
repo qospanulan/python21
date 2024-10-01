@@ -14,6 +14,6 @@ class Book:
     def set_status(self, new_status):
         self.status = new_status
 
-    def __str__(self):
+    def __repr__(self):
         return f"Книга: {self.title} - Автор: {self.author}"
 

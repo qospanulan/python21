@@ -39,8 +39,9 @@ while True:
 
         available_books = library1.get_available_books()
 
-        for book in available_books:
-            print(book)
+        print(available_books)
+        # for book in available_books:
+        #     print(book)
 
     elif user_input == "2":
         print("Выберите книгу из списка:")
