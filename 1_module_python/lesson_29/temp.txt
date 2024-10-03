@@ -1,0 +1,36 @@
+
+groupby 'Product' then [['Quantity']].sum()
+====== Laptop ================================= 7
+1,Laptop,Electronics,4,800.00,2023-01-01
+7,Laptop,Electronics,1,850.00,2023-05-05
+15,Laptop,Electronics,2,900.00,2023-11-11
+
+====== Smartphone ============================== 7
+2,Smartphone,Electronics,3,400.00,2023-02-02
+9,Smartphone,Electronics,2,420.00,2023-06-06
+17,Smartphone,Electronics,2,430.00,2023-12-13
+
+====== Headphones ============================= 3
+3,Headphones,Electronics,1,50.00,2023-02-02
+10,Headphones,Electronics,1,60.00,2023-06-06
+18,Headphones,Electronics,1,65.00,2023-01-14
+
+TV
+
+
+Refrigerator
+
+
+Blender
+
+
+Microwave
+
+
+Tablet
+
+
+Smartwatch
+
+
+Washing Machine
