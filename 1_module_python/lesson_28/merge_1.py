@@ -14,11 +14,15 @@ print("\n== result ========================================\n")
 df_result = pd.merge(
     left=df_users,
     right=df_posts,
-    on=['user_id']
+    on=['user_id'],
+    how='outer'
 )
 
 print(df_result.head(3))
-df_result.to_csv("data/result.csv", index=False)
+df_result.to_csv("data/result_outer.csv",
+                 index=False
+                 # columns=['post_id', 'user_id', 'body', 'username']
+                 )
 
 
 
