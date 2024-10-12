@@ -5,6 +5,12 @@ TOKEN = '7800185758:AAEkd4LIRIDvO53CKy4Orueht8SyUJNgxBo'
 bot = telebot.TeleBot(token=TOKEN)
 
 
+@bot.message_handler(func=lambda msg: msg.from_user.id != 6179607626)
+def other_user_handler(msg):
+    bot.send_message(chat_id=msg.chat.id, text=f"Вы не Улан!")
+    # pass
+
+
 @bot.message_handler(commands=['start'])
 def start_handler(msg):
     bot.send_message(chat_id=msg.chat.id, text=f"Привет привет! Добро пожаловать на наш бот!")
