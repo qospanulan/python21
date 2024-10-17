@@ -1,0 +1,14 @@
+,OrderID,Product,Category,Quantity,Price,Date
+0,1,Laptop,Electronics,4,800.0,2023-01-01
+1,2,Smartphone,Electronics,3,400.0,2023-02-02
+2,3,Headphones,Electronics,1,50.0,2023-02-02
+3,4,TV,Electronics,1,1200.0,2023-03-03
+6,7,Laptop,Electronics,1,850.0,2023-05-05
+8,9,Smartphone,Electronics,2,420.0,2023-06-06
+9,10,Headphones,Electronics,1,60.0,2023-06-06
+10,11,Tablet,Electronics,7,300.0,2023-07-07
+12,13,Smartwatch,Electronics,3,150.0,2023-09-09
+14,15,Laptop,Electronics,2,900.0,2023-11-11
+16,17,Smartphone,Electronics,2,430.0,2023-12-13
+17,18,Headphones,Electronics,1,65.0,2023-01-14
+18,19,TV,Electronics,1,1300.0,2023-02-15

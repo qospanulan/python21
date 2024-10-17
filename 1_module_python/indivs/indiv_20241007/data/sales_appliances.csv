@@ -1,0 +1,8 @@
+,OrderID,Product,Category,Quantity,Price,Date
+4,5,Refrigerator,Appliances,1,1500.0,2023-03-03
+5,6,Blender,Appliances,2,30.0,2023-04-04
+7,8,Microwave,Appliances,1,100.0,2023-05-05
+11,12,Refrigerator,Appliances,2,1600.0,2023-08-08
+13,14,Blender,Appliances,1,35.0,2023-10-10
+15,16,Washing Machine,Appliances,1,800.0,2023-12-12
+19,20,Microwave,Appliances,2,120.0,2023-02-16
